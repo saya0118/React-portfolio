@@ -1,5 +1,4 @@
-import logo from '../logo.svg';
-import '../App.css';
+import logo from '../image/logo.svg';
 import React from 'react';
 
 function Header() {
@@ -19,10 +18,10 @@ function Header() {
             </ul>
           </div>
         </div>
-        <header className="App-header">
+        <section className="app-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p className="Greeting">Hi there, I'm Saya!<br/>React Developer based in Vancouver</p>
-        </header>
+        </section>
       </div>
     );
   }

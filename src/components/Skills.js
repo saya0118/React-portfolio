@@ -6,11 +6,11 @@ function Skills (){
             <ul>
                 <li>HTM5</li>
                 <li>SCC/SASS</li>
-                <li>JavaScript</li>
+                <li>GitHub</li>
                 <li>React.js</li>
                 <li>Redux</li>
                 <li>TypeScript</li>
-                <li>GitHub</li>
+                <li>Next.js</li>
             </ul>
         </div>
     )
