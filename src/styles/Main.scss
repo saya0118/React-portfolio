@@ -16,6 +16,27 @@
         .image{
             float: right;
             width: 48%;
+            height: 475px;
+            position: relative;
+
+            img{
+                position: absolute;
+            }
+
+            .red-palette{
+                left: 70px;
+                top: 80%;
+
+            }
+
+            .beige-palette{
+                left: 48%;
+                top: 54%;
+            }
+
+            .profile{
+                top: 23%;
+            }
 
         }
     }
