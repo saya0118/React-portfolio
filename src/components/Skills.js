@@ -3,6 +3,9 @@ import React from 'react'
 function Skills (){
     return(
         <div className="skills">
+            <div className="section-title">
+                <h1>SKILLS</h1>
+            </div>
             <ul>
                 <li>HTM5</li>
                 <li>SCC/SASS</li>

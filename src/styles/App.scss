@@ -1,4 +1,39 @@
-body {
+@charset "utf-8";
+
+$beige: #EEE6DE;
+$brown: #5A494C;
+$camel: #C9A676;
+$red: #9F2624;
+
+$small-font: 20px;
+$medium-font: 30px;
+$large-font: 50px;
+
+* {
   margin: 0;
   padding: 0;
+
+  body{
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+
+    .App{
+
+      html {
+        overflow-y:scroll;
+      }
+
+      li{
+        list-style-type: none;
+      }
+
+      img{
+        border: 0;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+
 }

@@ -3,8 +3,9 @@ import React from "react"
 function Works (){
     return(
         <div className="works">
-            <h1>WORKS</h1>
-            <p className="underline"></p>
+            <div className="section-title">
+                <h1>WORKS</h1>
+            </div>
         </div>
     )
 }

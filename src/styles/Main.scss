@@ -1,0 +1,22 @@
+.Main{
+    min-height: 100vh;
+    background-color: $camel;
+    padding: 5px 10%;
+
+    .container{
+
+        p{
+            float: left;
+            width: 48%;
+            height: 475px;
+            color: $beige;
+            font-size: $small-font;
+        }
+
+        .image{
+            float: right;
+            width: 48%;
+
+        }
+    }
+}
