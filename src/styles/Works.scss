@@ -1,0 +1,114 @@
+.works{
+    min-height: 200vh;
+    background-color: $camel;
+        ul{
+            list-style: none;
+            li{
+
+                .project-content{
+                    margin-bottom: 70px;
+                    display: flex;
+                    height: 500px;
+                    width: 100%;
+                    justify-content: space-between;
+                    // transition: all 1s　ease-out;
+                    // transform: translateX(200px);
+                    // opacity: 0;
+
+                    animation: slideInRight 1s;
+
+                    @keyframes slideInRight {
+                        0%{
+                            opacity: 0;
+                            transform: translateX(200px);
+                        }
+
+                        100%{
+                            opacity: 1;
+                            transform: translateX(0px);
+                        }
+
+                    }
+
+                    .project-img{
+                        width: 45%;
+                        height: auto;
+                        position: relative;
+
+                        img{
+                            width: 100%;
+                            position: absolute;
+                            opacity:1;
+                            transition: all 2s ease-in-out;
+                            object-fit: contain;
+                        }
+                    }
+
+                    .project-info{
+                        width: 48%;
+                        
+
+                        p{
+                            color: $brown;
+                            line-height: 2em;
+                            margin: 20px 0;
+                        }
+
+                        h3{
+                            color: $brown;
+                            font-size: $large-font;
+                        }
+
+                        .links{
+                            a{
+                                margin-right: 20px;
+                                text-decoration: none;
+                                position: relative;
+                                display: inline-block;
+                                color: #fff;
+                                &::after{
+                                    position: absolute;
+                                    bottom: -4px;
+                                    left: 0;
+                                    content: '';
+                                    width: 100%;
+                                    height: 2px;
+                                    // background: ;
+                                    transform: scale(0, 1);
+                                    transform-origin: center top;
+                                    transition: transform .3s;
+                                }
+
+                                &:hover::after{
+                                    transform: scale(1,1);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(even){
+                    .project-content{
+                    flex-direction: row-reverse;
+                    flex-wrap: nowrap;
+                    animation: slideIn 1s;
+
+                    @keyframes slideIn {
+                        0%{
+                            opacity: 0;
+                            transform: translateX(-200px);
+                        }
+
+                        100%{
+                            opacity: 1;
+                            transform: translateX(0px);
+                        }
+
+                    }
+                    }
+                }
+            }
+        }
+
+    
+}
