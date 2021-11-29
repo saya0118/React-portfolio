@@ -1,14 +1,13 @@
 .works{
     min-height: 200vh;
-    background-color: $camel;
+    background-color: $beige;
         ul{
             list-style: none;
             li{
 
                 .project-content{
-                    margin-bottom: 70px;
                     display: flex;
-                    height: 500px;
+                    height: 50vh;
                     width: 100%;
                     justify-content: space-between;
                     // transition: all 1s　ease-out;
@@ -31,8 +30,8 @@
                     }
 
                     .project-img{
-                        width: 45%;
-                        height: auto;
+                        width: 50%;
+                        // height: auto;
                         position: relative;
 
                         img{
@@ -45,24 +44,29 @@
                     }
 
                     .project-info{
-                        width: 48%;
-                        
+                        width: 50%;
+                        background-color: $red;
 
                         p{
+                            padding-left: 20px;
                             color: $brown;
                             line-height: 2em;
                             margin: 20px 0;
                         }
 
                         h3{
+                            padding-left: 20px;
                             color: $brown;
                             font-size: $large-font;
                         }
 
                         .links{
                             a{
-                                margin-right: 20px;
-                                text-decoration: none;
+                                text-align: center;
+                                width: 80px;
+                                height: 25px;
+                                margin-left: 20px;
+                                border: 2px solid white;
                                 position: relative;
                                 display: inline-block;
                                 color: #fff;

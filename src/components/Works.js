@@ -19,7 +19,6 @@ function Works (){
                             <h3>TITLE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit sit fuga dignissimos. Expedita ipsa nobis et molestias id aspernatur? Aliquam iusto eveniet ea enim voluptatum praesentium reprehenderit cumque quidem.</p>
                             <div className="links">
-                                <a href="">LIVE</a>
                                 <a href="">CODE</a>
                             </div>
                         </div>
@@ -35,7 +34,6 @@ function Works (){
                             <h3>TITLE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit sit fuga dignissimos. Expedita ipsa nobis et molestias id aspernatur? Aliquam iusto eveniet ea enim voluptatum praesentium reprehenderit cumque quidem.</p>
                             <div className="links">
-                                <a href="">LIVE</a>
                                 <a href="">CODE</a>
                             </div>
                         </div>
@@ -51,7 +49,6 @@ function Works (){
                             <h3>TITLE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit sit fuga dignissimos. Expedita ipsa nobis et molestias id aspernatur? Aliquam iusto eveniet ea enim voluptatum praesentium reprehenderit cumque quidem.</p>
                             <div className="links">
-                                <a href="">LIVE</a>
                                 <a href="">CODE</a>
                             </div>
                         </div>
@@ -67,7 +64,6 @@ function Works (){
                             <h3>TITLE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit sit fuga dignissimos. Expedita ipsa nobis et molestias id aspernatur? Aliquam iusto eveniet ea enim voluptatum praesentium reprehenderit cumque quidem.</p>
                             <div className="links">
-                                <a href="">LIVE</a>
                                 <a href="">CODE</a>
                             </div>
                         </div>
