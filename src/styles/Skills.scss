@@ -2,10 +2,12 @@
     min-height: 100vh;
     background-color: $beige;
     padding: 5px 10%;
-
+    text-align: center;
+    
     .skill-container{
         width: 70%;
         margin: 50px auto;
+        text-align: left;
         
         .progress-container{
             height: 70px;

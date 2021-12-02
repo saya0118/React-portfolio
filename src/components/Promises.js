@@ -5,8 +5,8 @@ function Promises () {
         <div className="promises">
             <div className="section-title">
                 <h1>PROMISES</h1>
-                <p>I promise ...</p>
             </div>
+            <p>I promise ...</p>
             <ul>
                 <li>
                     <img src=""/>

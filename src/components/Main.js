@@ -4,6 +4,7 @@ import BeigePalette from '../image/EllipseBeige.svg'
 import Profile from '../image/profile.svg'
 
 function Main () {
+    
     return(
         <div className="Main">
             <div className="section-title">

@@ -1,8 +1,14 @@
 .promises{
-    min-height: 70vh;
+    min-height: 60vh;
     background-color: $beige;
     padding: 5px 10%;
     padding: 30px;
+    text-align: center;
+
+    p{
+        color: $brown;
+        font-size: $small-font;
+    }
 
     ul{
 

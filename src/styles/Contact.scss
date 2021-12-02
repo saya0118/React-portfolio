@@ -1,0 +1,29 @@
+.contact{
+    min-height: 30vh;
+    background-color: $beige;
+    padding: 5px 10%;
+    padding: 30px;
+    text-align: center;
+
+    p{
+        text-align: center;
+        color: $brown;
+        font-size: $small-font;
+    }
+
+    .email-box{
+        text-align: center;
+        margin: 20px;
+        a{
+            font-size: $medium-font;
+            color: rgb(22, 38, 110);
+        }
+
+        a:hover{
+            color: $red;
+            transition: 0.5s;
+        }
+
+    }
+
+}
