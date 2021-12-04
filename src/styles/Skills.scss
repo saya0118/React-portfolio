@@ -8,36 +8,47 @@
         width: 70%;
         margin: 50px auto;
         text-align: left;
-        
-        .progress-container{
-            height: 70px;
-            .name{
-                color: $brown;
-                
-            }
-            .value{
-                background-color: $beige;
-                border-radius: 9999px;
-                display: flex;
-                align-items: center;
-                height: 30px;
-                
 
-                .value-bar{
-                    height: 15px;
-                    justify-content: center;
-                    background-color: #fff;
-                    color: #fff;
-                    border-radius: 9999px;
-                    font-size: 10px;
-                    transition: 2s;
-                }
+        .progress-bar {
+            background-color: $beige;
+            border-radius: .5em;
 
-
-            }
-            .progress{
-
+            .progress {
+                background-color: #fff;
+                height: 10px;
+                border-radius: 1rem;
             }
         }
+        
+        // .progress-container{
+        //     height: 70px;
+        //     .name{
+        //         color: $brown;
+                
+        //     }
+        //     .value{
+        //         background-color: $beige;
+        //         border-radius: 9999px;
+        //         display: flex;
+        //         align-items: center;
+        //         height: 30px;
+                
+
+        //         .value-bar{
+        //             height: 15px;
+        //             justify-content: center;
+        //             background-color: #fff;
+        //             color: #fff;
+        //             border-radius: 9999px;
+        //             font-size: 10px;
+        //             transition: 2s;
+        //         }
+
+
+        //     }
+        //     .progress{
+
+        //     }
+        // }
     }
 }

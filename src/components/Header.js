@@ -2,6 +2,24 @@ import logo from '../image/logo.svg';
 import React from 'react';
 
 function Header() {
+//   const content = "Hi, I'm Saya!";
+
+//   const typing = (element, sentence) => {
+// 	  [...sentence].forEach((character, index) => {
+//   	  setTimeout(() => {
+//     	  document.querySelector(element).textContent += character;
+//       }, 100 * ++index);
+//       });
+// }
+
+//   typing('.greeting', content);
+
+
+//   setInterval(() => {
+// 	  document.querySelector('.greeting').textContent = ''
+// 	  typing('.greeting', content);
+//   }, 250 * content.length)
+
     return (
       <div className="Header">
         <div className="nav-bar">
