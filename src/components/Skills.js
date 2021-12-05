@@ -10,44 +10,28 @@ function Skills (){
             </div>
             <div className="skill-container">
                 <div className="progress-container">
-                    <span className="name">HTML5</span>
-                    <ProgressBar width={400} value={0.5}/>
-                    <div className="progress"></div>
+                    <div className="name">HTML5</div>
+                    <ProgressBar width={400}px value={90}/>
                 </div>
                 <div className="progress-container">
-                    <span className="name">CSS/SASS</span>
-                    <span className="value">
-                        <div className="value-bar" data-percent="65%"/>
-                    </span>
-                    <div className="progress"></div>
+                    <div className="name">CSS/SASS</div>
+                    <ProgressBar width={400}px value={70}/>
                 </div>
                 <div className="progress-container">
-                    <span className="name">GitHub</span>
-                    <span className="value">
-                        <div className="value-bar" data-percent="80%"/>
-                    </span>
-                    <div className="progress"></div>
+                    <div className="name">GitHub</div>
+                    <ProgressBar width={400}px value={80}/>
                 </div>
                 <div className="progress-container">
-                    <span className="name">React.js</span>
-                    <span className="value">
-                        <div className="value-bar" data-percent="60%"/>
-                    </span>
-                    <div className="progress"></div>
+                    <div className="name">React.js</div>
+                    <ProgressBar width={400}px value={70}/>
                 </div>
                 <div className="progress-container">
-                    <span className="name">TypeScript</span>
-                    <span className="value">
-                        <div className="value-bar" data-percent="60%"/>
-                    </span>
-                    <div className="progress"></div>
+                    <div className="name">TypeScript</div>
+                    <ProgressBar width={400}px value={60}/>
                 </div>
                 <div className="progress-container">
-                    <span className="name">Next.js</span>
-                    <span className="value">
-                        <div className="value-bar" data-percent="40%"/>
-                    </span>
-                    <div className="progress"></div>
+                    <div className="name">Next.js</div>
+                    <ProgressBar width={400}px value={40}/>
                 </div>
             </div>
         </div>

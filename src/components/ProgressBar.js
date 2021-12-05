@@ -4,13 +4,13 @@ const ProgressBar = (props) => {
 
     const [value, setValue] = useState(0);
 
-    useEffect(() => {
+    useEffect((percent, width) => {
         setValue(percent * width);
     })
 
     return (
-        <div className="progress-bar" style={{width: width}}>
-                <div className="progress" style={{ width: `${props.value}px`}}/>
+        <div className="progress-bar" style={{width: `400px`}}>
+            <div className="progress" style={{ width: `${props.value}px`}}/>
         </div>
     )
 }
