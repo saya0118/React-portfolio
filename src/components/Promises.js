@@ -7,7 +7,7 @@ function Promises () {
             <div className="section-title">
                 <h1>PROMISES</h1>
             </div>
-            <p>I promise ...</p>
+            {/* <p>I promise ...</p> */}
             <ul className="ui container five column grid">
                 <li className="ui column">
                     <i className="ui massive fire icon"></i>
